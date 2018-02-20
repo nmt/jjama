@@ -1,0 +1,35 @@
+.llama {
+    background-color: tan;
+}
+
+.head {
+    width: 150px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.neck {
+    width: 70px;
+    height: 150px;
+}
+
+.body {
+    width: 300px;
+    height: 200px;
+    border-radius: 50% 50% 0 0;
+}
+
+.leg {
+    display: inline-block;
+}
+
+.frontleg {
+    width: 50px;
+    height: 100px;
+}
+
+.haunch {
+    width: 100px;
+    height: 70px;
+    border-radius: 0 0 0 100%;
+}
