@@ -4,9 +4,10 @@
 
 .head-wrapper {
     width: 150px;
-    height: 80px;
+    height: 160px;
     position: relative;
-    padding-top: 80px;
+    padding-top: 80px; /* 80px added to the top */
+    /* top pushes the div down, padding-top adds whitespace */
 }
 
 .ear {
@@ -31,9 +32,20 @@
     border-radius: 50% 20% 0 30%;
 }
 
+.neck-wrapper {
+    position: relative;
+    padding-left: 80px;
+}
+
 .neck {
     width: 70px;
     height: 150px;
+}
+
+.body-wrapper {
+    position: relative;
+    top: -50px;
+    left: 
 }
 
 .body {
