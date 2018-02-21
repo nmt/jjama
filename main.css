@@ -4,7 +4,7 @@
 
 .head-wrapper {
     width: 150px;
-    height: 160px;
+    height: 80px;
     position: relative;
     padding-top: 80px; /* 80px added to the top */
     /* top pushes the div down, padding-top adds whitespace */
@@ -43,28 +43,46 @@
 }
 
 .body-wrapper {
+    width: 300px;
     position: relative;
     top: -50px;
-    left: 
+    left: 50px;
 }
 
 .body {
     width: 300px;
     height: 200px;
-    border-radius: 50% 50% 0 0;
+    border-radius: 50% 30% 0 0;
 }
 
 .leg {
     display: inline-block;
-}
-
-.frontleg {
     width: 50px;
     height: 100px;
 }
 
+.front2 {
+    background-color: darkgoldenrod;
+}
+
+.back-leg-wrapper {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
 .haunch {
+    position: absolute;
     width: 100px;
     height: 70px;
     border-radius: 0 0 0 100%;
+}
+
+.haunch1 {
+    background-color: darkgoldenrod;
+    left: -50px;
+}
+
+.back1 {
+    background-color: darkgoldenrod;
 }
