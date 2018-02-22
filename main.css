@@ -32,6 +32,25 @@
     border-radius: 50% 20% 0 30%;
 }
 
+.eye {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 95px;
+    left: 75px;
+}
+
+.nose {
+    background-color: black;
+    width: 20px;
+    height: 10px;
+    border-radius: 0 0 100% 0;
+    position: absolute;
+    top: 110px;
+}
+
 .neck-wrapper {
     position: relative;
     padding-left: 80px;
@@ -53,16 +72,24 @@
     width: 300px;
     height: 200px;
     border-radius: 50% 30% 0 0;
+    /* border-bottom: 50px dotted red; */
+    /* box-sizing: border-box; */
+}
+
+.tail {
+    width: 70px;
+    height: 40px;
+    border-radius: 0 0 100% 0;
+    transform: rotateZ(-35deg);
+    position: absolute;
+    top: 50px;
+    left: 280px;
 }
 
 .leg {
     display: inline-block;
     width: 50px;
     height: 100px;
-}
-
-.front2 {
-    background-color: darkgoldenrod;
 }
 
 .back-leg-wrapper {
