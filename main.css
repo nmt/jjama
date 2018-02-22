@@ -57,14 +57,19 @@
 }
 
 .neck {
+    background-color: transparent;
     width: 70px;
-    height: 150px;
+    height: 0;
+    border-bottom: 150px solid tan;
+    border-left: 20px solid transparent;
+    position: relative;
+    left: -20px;
 }
 
 .body-wrapper {
     width: 300px;
     position: relative;
-    top: -50px;
+    top: -70px;
     left: 50px;
 }
 
@@ -90,6 +95,7 @@
     display: inline-block;
     width: 50px;
     height: 100px;
+    border-radius: 0 0 30px 0;
 }
 
 .back-leg-wrapper {
@@ -106,10 +112,10 @@
 }
 
 .haunch1 {
-    background-color: darkgoldenrod;
+    background-color: peru;
     left: -50px;
 }
 
 .back1 {
-    background-color: darkgoldenrod;
+    background-color: peru;
 }
