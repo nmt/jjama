@@ -5,7 +5,6 @@ body {
 .llama-wrapper {
     width: 350px;
     transition: transform 0.5s;
-    /* transform-origin: 75px 95px; */
 }
 
 .llama {
