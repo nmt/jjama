@@ -128,3 +128,23 @@ body {
 .back1 {
     background-color: peru;
 }
+
+.poncho {
+    position: absolute;
+    left: -20px;
+    height: 0;
+    width: 220px;
+    border-left: 30px solid transparent;
+    border-bottom: 150px solid red;
+}
+
+.poncho-tassles {
+    position: absolute;
+    left: -32px;
+    z-index: 1;
+    height: 140px;
+    width: 253px;
+    border: 22px dotted yellow;
+    border-top-style: none;
+    border-left-style: none;
+}
